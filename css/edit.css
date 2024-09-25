@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    height: 100%;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+header {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: #3c3406;
+    margin-bottom: 100px;
+}
+
+section#sectionEdit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 600px;
+    border: 4px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div {
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+section p {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+section#editPromoSection {
+    width: 70%;
+    height: 70%;
+    
+
+}
+.del {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div:first-child {
+    width: 100%;
+    height: 500px;
+    
+}
+
+div#studentsList {
+    height: 90%;
+    width: 95%;
+    
+    
+}
+
+div.divForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form#formEdit {
+    
+    gap: 10px;
+    align-items: center;
+    border: 4px solid black;
+    padding: 30px;
+    border-radius: 30px;
+}
+div:last-child {
+    width: 400px;
+    text-align: center;
+}
+form#editPromoForm {
+    text-align: center;
+}
+
+label {
+    font-size: 24px;
+}
+
+input#name {
+    font-size: 15px;
+}
+
+input#namePromo, input#firstName, input#lastName, input#age {
+    width: 250px; 
+
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px 30px; 
+    cursor: pointer;
+    margin-bottom: 10px; 
+}
+
+div#studentsList p {
+    border: 2px solid black ;
+    padding: 4px ;
+    gap: 4px;
+
+
+}
+
+/* Boutons  */
+button#btnSend {
+    width: 250px;
+    padding: 15px;
+    background-color: #ff7a22;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 15px;
+}
+
+button#btnSend:hover {
+    background-color: #444; 
+}
+
+
+button.backButton {
+    width: 250px; 
+    padding: 15px; 
+    background-color: #ff7a22;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 15px 0 ;
+}
+button.backButton:hover {
+    background-color: #444; 
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/edit.css">
+    <title>Éditer promo</title>
+</head>
+<body>
+    <header>
+        <h1>BetaEcole</h1>
+    </header>
+
+    <section id="editPromoSection">
+        
+        
+        <div>
+            <h2>Élèves :</h2>
+            <div id="studentsList"></div>
+        </div>
+        
+        
+        
+        
+        <div>
+                <form id="editPromoForm">
+                    <input type="hidden" id="promo-id" value="">
+                    <label for="name">Nom de la Promo :</label>
+                    <input type="text" id="namePromo" value=""><br>
+
+                    <label for="firstname">Prénom de l'élève :</label>
+                    <input type="text" id="firstName" placeholder="Prénom de l'élève">
+                    <p id="errorFirstName"></p>
+
+                    <label for="name">Nom de l'élève :</label>
+                    <input type="text" id="lastName" placeholder="Nom de l'élève">
+                    <p id="errorLastName"></p>
+
+                    <label for="name">Age de l'élève :</label>
+                    <input type="text" id="age" placeholder="Age de l'élève">
+                    <p id="errorAge"></p>
+
+                    <button type="button" id="btnSend">Envoyer</button>
+                    
+                    
+                </form>
+        </div>
+
+        
+        
+    </section>
+
+    <script src="./javascript/edit.js"></script>
+</body>
+</html>
